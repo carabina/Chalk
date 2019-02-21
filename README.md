@@ -5,7 +5,7 @@ Terminal colors using Swift 5’s string interpolation extensions.
 ```swift
 print("Hi my name is \(name, color: .blue) and I live in Savannah, GA")
 print("Hi my name is \(name, color: .blue, style: .bold) and I live in Atlanta, GA")
-print("Hi my name is \(name, color: .blue, style: [.bold, .underline]) and I live in Atlanta, GA")
+print("Hi my name is \(name, color: .blue, style: .underline) and I live on Mars")
 ```
 
 <img src="Screenshot.png" width="583">
